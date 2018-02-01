@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="TEDCSS.css">
 <meta charset="ISO-8859-1">
 <title>T&D Solutions - Home</title>
@@ -31,31 +32,25 @@
 	
 	</div>
 	
-	<div class="cred">
-		<table align="center">
-			<td><a href="Treinamentos.html">Treinamentos</a></td>
-			<td><a href="Metodologia.html">Metodologia</a></td>
-			<td><a href="Modalidades.html">Modalidades</a></td>
-			<td><a href="Diretoria.html">Diretoria</a></td>
-			<td><a href="Clientes.html">Clientes</a></td>
-			<td><a href="Artigos.html">Artigos</a></td>
-			<td><a href="Fotos.html">Fotos</a></td>
-			<td><a href="Palestras.html">Palestras</a> </td>
-			<td><a href="contato@tedsolutions.com.br">Contato</a></td>
-		</table>	
-	</div>
+	<nav class="menu">
+		<ul>
+			<li><a href="#treinamentos" class="scroll">Treinamentos</a></li>
+			<li><a href="Metodologia.html">Metodologia</a></li>
+			<li><a href="Modalidades.html">Modalidades</a></li>
+			<li><a href="Diretoria.html">Diretoria</a></li>
+			<li><a href="Clientes.html">Clientes</a></li>
+			<li><a href="Artigos.html">Artigos</a></li>
+			<li><a href="Fotos.html">Fotos</a></li>
+			<li><a href="Palestras.html">Palestras</a> </li>
+			<li><a href="contato@tedsolutions.com.br">Contato</a></li>
+		</ul>	
+	</nav>
 	
 	
 </head>
 <body>
 
-	<div class="centralContent" id="centralContent">
-	</br>
-	</br>
-	
-	</br>
-	</br>
-	
+	<section class="centralContent" id="centralContent">	
 		<div class="expo" id="quemSomos" >
 			<h4>Quem Somos?</h4>
 			<p>
@@ -108,7 +103,33 @@
 			</p>	
 			</br>
 		</div>
-	</div>
+	</section>
+	
+	<section class="treinamentos" id="treinamentos">
+			<h1>Temas Comportamentais:</h1>
+			<ul>	
+				<li>-Pesquisa de Clima Organizacional</li>
+				<li>-Liderança de Alto Nível</li>
+				<li>-Gestão de Negócios com Foco em Inovação</li>
+				<li>-A Arte de Dar Feedback com Plano de Ação</li>
+				<li>-Excelência no Atendimento ao Cliente</li>
+				<li>-Construindo Times de Alta Performance</li>
+				<li>-Gestão de Pessoas - Foco em Competências</li>
+				<li>-Administração e Resolução de Conflitos</li>
+				<li>-Comunicação Influenciadora e Assertividade</li>
+				<li>-Gestão do Tempo</li>
+				<li>-Gestão da Mudança</li>
+				<li>-Negociação e Técnicas de Vendas</li>
+				<li>-O Fator Resiliência - A arte da SuperAção</li>
+				<li>-Motivação - Verdades e Mitos</li>
+				<li>-Inteligência Emocional e Social</li>
+				<li>-Marketing Pessoal e Etiqueta Corporativa</li>
+				<li>-Formação de Multiplicador Interno</li>
+				<li>-Ética Corporativa</li>
+				<li>-Participação em SIPAT  </li>  
+				<li>-Sensibilização - Qualidade no Processo Produtivo</li>
+			</ul>	
+	</section>
 	
 	<div class="centralFooter">
 		
@@ -157,6 +178,20 @@
 			<h5 class="creditos">T&D Solutions - 2018 - Todos os Direitos Reservados</h5>
 		</div>	
 	</div>
+
+
+	<!-- Javascripts -->
+
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+ 
+	<script type="text/javascript">
+	jQuery(document).ready(function($) { 
+	    $(".scroll").click(function(event){        
+	        event.preventDefault();
+	        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+	   });
+	});
+	</script>
 
 </body>
 </html>
