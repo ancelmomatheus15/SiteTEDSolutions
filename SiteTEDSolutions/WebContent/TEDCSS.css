@@ -1,5 +1,5 @@
 .head1{
-	background-image:url(imgs/Banner2.png);
+	background-image:url(imgs/Banner3.jpg);
 	background-color: #4f5051;
 	color:#ffffff;
 	height: 145px;
@@ -112,7 +112,7 @@ h4{
 .left{
 	margin: 5%;
 	text-align: left;
-	width: 30%;
+	width: 40%;
 	margin-top: 0;
     margin-bottom: 0;
 }
@@ -172,25 +172,10 @@ a:active {
 }
 
 .logo{
-	background-color:"#ffffff";
 	background-image:url(imgs/TED_Logo_G.png);
 	width: 255px;
     height: 50px;
-}
-
-.contact{
-	list-style-image: url(Icons/Contato.png);
-   	list-style-position: inside; /*outside*/
-}
-	
-.phone{
-	list-style-image: url(Icons/phone.png);
-   	list-style-position: inside; /*outside*/
-}
-
-.mail{
-	list-style-image: url(Icons/mail.png);
-   	list-style-position: inside; /*outside*/
+    filter: invert(50%);
 }
 
 .creditos{
@@ -201,8 +186,57 @@ a:active {
 	font-weight: bold;
 	line-height: 26.4px;
 	color: #ffffff;
+	text-align: left;
 }
 
 .contatoHead{
 	font-size: 15px;
 }
+
+.contactText{
+	padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.contactText{
+	padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+    height: 28px;
+    width: 28px;
+}
+
+.contactText:hover{
+	background: #626263;
+}
+
+.contactText2:hover{
+	background: #626263;
+}
+
+.contactImg {
+    background-image: url(imgs/Icons/Contato.png);
+    width: 30px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.mail{
+	background-image: url(imgs/Icons/mail.png);
+    width: 30px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+
