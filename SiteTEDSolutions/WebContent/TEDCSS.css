@@ -267,10 +267,10 @@ a:active {
 }
 
 .logo{
-	background-image:url(imgs/TED_Logo_G.png);
-	width: 255px;
-    height: 50px;
-    filter: invert(50%);
+/* 	background-image:url(imgs/TED_Logo_G.png); */
+/* 	width: 255px; */
+/*     height: 50px; */
+/*     filter: invert(50%); */
 }
 
 .creditos{
@@ -361,4 +361,36 @@ a:active {
 .painel3{
 	display: inline-block;
 	width: 100%;
+}
+
+.clientes{
+	horizontal
+}
+
+.clientesTb{
+	border-collapse: collapse;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.clientesTb tr td{
+	border: 1px solid black;
+	vertical-align: middle;
+	background-color: #ffffff;
+	width: 350px;
+}
+
+.tbImg{
+	height: 33%;
+} 
+
+.diretoria{
+	margin: auto;
+	
+}
+.diretoria p{
+	width: 70%;
+    margin: auto;
 }
