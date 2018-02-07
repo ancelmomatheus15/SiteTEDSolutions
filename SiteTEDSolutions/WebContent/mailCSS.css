@@ -1,0 +1,55 @@
+.head1{
+	background-color: #bc0b0b;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+body{
+	background-color: #8e8b8b;
+}
+
+h1{
+	color: #ffffff;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 26.4px;
+    font-size: 30px;
+}
+
+form{
+	margin: 20px;
+}
+
+.btn{
+	padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;  
+    
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+.btn:hover{
+	background: #626263;
+}
+
+.lbl{
+	text-align: right;
+	width: 100%;	
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+
