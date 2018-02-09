@@ -15,7 +15,6 @@
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-	padding-left: 20px;
 	background-color: #bc0b0b;
 }
 
@@ -287,6 +286,7 @@ a:active {
 	line-height: 26.4px;
 	color: #ffffff;
 	text-align: left;
+	padding-left: 20px;
 }
 
 .contatoHead{
