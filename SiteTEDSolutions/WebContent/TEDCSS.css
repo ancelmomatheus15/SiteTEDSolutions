@@ -347,12 +347,100 @@ a:active {
     padding-top: 30px;
 }
 
-.sectDiv{
+.sectDiv6{
+	background-image: url('imgs/Parallax/Prlx06.jpg');
 	height: 50px; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectDiv1{
+	background-image: url('imgs/Parallax/Prlx01.jpg');
+	height: 50px; 
+    background-color: #a8a4a4;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectDiv2{
+	background-image: url('imgs/Parallax/Prlx02.jpg');
+	height: 50px; 
+    background-color: #a8a4a4;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectDiv3{
+	background-image: url('imgs/Parallax/Prlx03.jpg');
+	height: 50px; 
+    background-color: #a8a4a4;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectDiv4{
+	background-image: url('imgs/Parallax/Prlx04.jpg');
+	height: 50px; 
+    background-color: #a8a4a4;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectDiv5{
+	background-image: url('imgs/Parallax/Prlx05.jpg');
+	height: 50px; 
+    background-color: #a8a4a4;
+	width: 100%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	height: 50%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sect hr{
