@@ -342,21 +342,18 @@ a:active {
 .sect{
 	width: 100%;
     height: 1200px;
-    margin-bottom: 150px;
-    padding-bottom: 30px;
     padding-top: 30px;
 }
 
 .sectDiv6{
 	background-image: url('imgs/Parallax/Prlx06.jpg');
-	height: 50px; 
+	height: 35%; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
 	
 	filter: grayscale(100%);
-	height: 50%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -365,14 +362,13 @@ a:active {
 
 .sectDiv1{
 	background-image: url('imgs/Parallax/Prlx01.jpg');
-	height: 50px; 
+	height: 35%; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
 	
 	filter: grayscale(100%);
-	height: 50%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -381,14 +377,13 @@ a:active {
 
 .sectDiv2{
 	background-image: url('imgs/Parallax/Prlx02.jpg');
-	height: 50px; 
+	height: 35%; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
 	
 	filter: grayscale(100%);
-	height: 50%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -397,14 +392,13 @@ a:active {
 
 .sectDiv3{
 	background-image: url('imgs/Parallax/Prlx03.jpg');
-	height: 50px; 
+	height: 35%; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
 	
 	filter: grayscale(100%);
-	height: 50%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -413,14 +407,13 @@ a:active {
 
 .sectDiv4{
 	background-image: url('imgs/Parallax/Prlx04.jpg');
-	height: 50px; 
+	height: 35%; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
 	
 	filter: grayscale(100%);
-	height: 50%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -429,14 +422,13 @@ a:active {
 
 .sectDiv5{
 	background-image: url('imgs/Parallax/Prlx05.jpg');
-	height: 50px; 
+	height: 35%; 
     background-color: #a8a4a4;
 	width: 100%;
 	margin-top: 35px;
 	margin-bottom: 35px;
 	
 	filter: grayscale(100%);
-	height: 50%;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -457,7 +449,7 @@ a:active {
 }
 
 .clientes{
-	horizontal
+	height: 1050px;
 }
 
 .clientesTb{
@@ -481,9 +473,22 @@ a:active {
 
 .diretoria{
 	margin: auto;
-	
+    height: 950px;
 }
 .diretoria p{
 	width: 70%;
     margin: auto;
+    padding-bottom: 330px;
+}
+
+.treinamentos{
+	height: 1070px;
+}
+
+.metodologias{
+	height: 950px;
+}
+
+.modalidades{
+	height: 800px;
 }
