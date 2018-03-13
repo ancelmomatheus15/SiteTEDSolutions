@@ -435,6 +435,26 @@ a:active {
     background-size: cover;
 }
 
+.sectDivHome{
+	background-image: url('imgs/Parallax/Prlx08.jpg');
+	height: 60%; 
+    background-color: #a8a4a4;
+	width: 100%;
+	margin-bottom: 35px;
+	
+	filter: grayscale(100%);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectClear{
+	padding-top: 0px;
+    padding-bottom: 750px;
+}
+
+
 .sect hr{
 	width:85%;
 }
@@ -478,7 +498,7 @@ a:active {
 .diretoria p{
 	width: 70%;
     margin: auto;
-    padding-bottom: 330px;
+    padding-bottom: 30px;
 }
 
 .treinamentos{
@@ -491,4 +511,13 @@ a:active {
 
 .modalidades{
 	height: 800px;
+}
+
+.profile{
+	background-image: url(imgs/profile01.jpg);
+    height: 40%;
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
 }
